@@ -166,6 +166,59 @@ International Conference on Autonomic Computing and Self-Organazing Systems @ DO
 
 # Why Aggregate Computing?
 
+<div class="r-stack">
+
+  <div  class="fragment current-visible" data-fragment-index="0">
+
+  <div style="text-align:left; margin-left:15%;">
+  <p> <i class="fa-solid fa-angle-right" style="color: #22373b;"></i> <em>Self-org</em> computational model </p>
+  <div style="text-align:left; margin-left:3%;">
+    <p> <i class="fa-solid fa-angle-right" style="color: #22373b;"></i> <em>Interaction:</em> repeated neighbors message exchange </p>
+    <p> <i class="fa-solid fa-angle-right" style="color: #22373b;"></i> <em>Behavior:</em> repeated execution with async rounds </p>
+  </div>
+  <p> <i class="fa-solid fa-angle-right" style="color: #22373b;"></i> <em>Collective abstraction:</em> computational fields ($dev \rightarrow \mathbb{V}$) </p>
+  <p> <i class="fa-solid fa-angle-right" style="color: #22373b;"></i> Computation expressed as a <em>composition of functions</em> over fields </p>
+  
+  </div>
+
+  <br>
+
+  {{<multicol>}}
+
+  {{<col>}}
+    <img
+    src="scr-result.png"
+    width="100%"
+  />
+  {{</col>}}
+
+  {{<col>}}
+  <img
+    src="channel-sim.png"
+    width="100%"
+  />
+  {{</col>}}
+
+  {{<col>}}
+  <img
+    src="channel.svg"
+    width="100%"
+  />
+  {{</col>}}
+
+  {{</multicol>}}
+
+  </div>
+
+  <div  class="fragment current-visible" data-fragment-index="1">
+  <img
+    src="fl-ac.png"
+    width="100%"
+  />
+  </div>
+
+</div>
+
 --- 
 
 # Preliminary results
